@@ -7,11 +7,10 @@ public class Condiment {
 	private String condiment_portion_size;
 	private Double condiment_calories;
 	
-	public Condiment(Integer condiment_id, Integer food_code, String display_name, String condiment_portion_size,
+	public Condiment(Integer condiment_id,String display_name, String condiment_portion_size,
 			Double condiment_calories) {
 		super();
 		this.condiment_id = condiment_id;
-		this.food_code = food_code;
 		this.display_name = display_name;
 		this.condiment_portion_size = condiment_portion_size;
 		this.condiment_calories = condiment_calories;
